@@ -8,7 +8,7 @@ const About = () => {
       <Text style={styles.title}>About Page</Text>
       <Link href="/" style={styles.link}>Home</Link>
       <Link href="/about" style={styles.link}>About Page</Link>
-      <Link href="/Contact" style={styles.link}>Contact Page</Link>
+      <Link href="/contact" style={styles.link}>Contact Page</Link>
     </View>
   )
 }
