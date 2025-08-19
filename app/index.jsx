@@ -11,9 +11,8 @@ const  Home = () => {
 			<ThemedLogo style={styles.image}/>
 			<ThemedText style={styles.title} title={true}>Reading List App</ThemedText>
 			<Spacer height={10}/>
-			<Link href="/" style={styles.link}><ThemedText>Home</ThemedText></Link>
-			<Link href="/about" style={styles.link}><ThemedText>About Page</ThemedText></Link>
-			<Link href="/contact" style={styles.link}><ThemedText>Contact Page</ThemedText></Link>
+			<Link href="/login" style={styles.link}><ThemedText>Login</ThemedText></Link>
+			<Link href="/register" style={styles.link}><ThemedText>Register</ThemedText></Link>
     </ThemedView>
   )
 }
