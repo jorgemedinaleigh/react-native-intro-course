@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     marginTop: 40
   },
   card: {
-    width: "100%",
+    width: "90%",
     marginHorizontal: "5%",
     marginVertical: 10,
     padding: 10,
