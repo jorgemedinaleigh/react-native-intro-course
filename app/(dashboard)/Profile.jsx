@@ -12,7 +12,7 @@ const Profile = () => {
   return (
     <ThemedView style={styles.container}>
       <ThemedText title={true} style={styles.heading}>
-        Your Email
+        {user.email}
       </ThemedText>
       <Spacer />
 
