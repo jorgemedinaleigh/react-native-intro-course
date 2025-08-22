@@ -6,14 +6,22 @@ import ThemedText from '../../components/ThemedText'
 import Spacer from '../../components/Spacer'
 import ThemedButton from '../../components/ThemedButton'
 import ThemedTextInput from '../../components/ThemedTextInput'
+import { useUser } from '../../hooks/useUser'
 
 const Login = () => {
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const handleSubmit = () => {
+  const { user, login } = useUser()
 
+  const handleSubmit = async () => {
+    try{
+      await login(email, password)
+    }
+    catch(error){
+
+    }
   }
 
   return (
